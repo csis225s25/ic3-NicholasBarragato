@@ -5,8 +5,8 @@
 *  @version Spring 2010 
 */
 
-import java.awt.event.*;
 import java.awt.*;
+import java.awt.event.*;
 import javax.swing.*;
 
 class ComboBoxDemo extends JFrame implements ItemListener {
@@ -30,7 +30,6 @@ class ComboBoxDemo extends JFrame implements ItemListener {
         // window, the application should terminate
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
 
-		
 		// create a object
 		ComboBoxDemo s = new ComboBoxDemo();
 
@@ -39,9 +38,9 @@ class ComboBoxDemo extends JFrame implements ItemListener {
 
 		// array of string containing cities
 		String s1[] = { "Albany", "Schenectady", "Troy", "Glens Falls", "Catskill" };
-		
+
 		// create checkbox
-        	cBox1 = new JComboBox<>(s1);
+        cBox1 = new JComboBox<>(s1);
 		
 		// add ItemListener
 		cBox1.addItemListener(s);
