@@ -9,6 +9,6 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 
 **Changes to code**
-
+When creating a comboBox, not adding the input data type that it holds into it brings an error into the compile box.
 
 **What caused it to stop working?**
