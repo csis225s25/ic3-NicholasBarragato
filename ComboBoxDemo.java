@@ -31,7 +31,7 @@ class ComboBoxDemo extends JFrame implements ItemListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
 
 		// create a object
-		ComboBoxDemo s = new ComboBoxDemo();
+		ComboBoxDemo s = new ComboBoxDemo(String);
 
 		// set layout of frame
 		frame.setLayout(new FlowLayout());
