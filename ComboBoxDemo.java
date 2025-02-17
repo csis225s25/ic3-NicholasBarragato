@@ -30,8 +30,8 @@ class ComboBoxDemo extends JFrame implements ItemListener {
         // window, the application should terminate
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
 
-		// create a object
-		ComboBoxDemo s = new ComboBoxDemo(String);
+		
+		
 
 		// set layout of frame
 		frame.setLayout(new FlowLayout());
@@ -39,6 +39,9 @@ class ComboBoxDemo extends JFrame implements ItemListener {
 		// array of string containing cities
 		String s1[] = { "Albany", "Schenectady", "Troy", "Glens Falls", "Catskill" };
 
+		// create a object
+		ComboBoxDemo s = new ComboBoxDemo(s1);
+		
 		// create checkbox
         cBox1 = new JComboBox(s1);
 		
